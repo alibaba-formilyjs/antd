@@ -1518,10 +1518,9 @@
     pascal-case "^3.1.1"
     upper-case "^2.0.1"
 
-"@formily/template@^1.0.0-alpha.21":
+"@formily/template@file:./formily-template-v1.0.0-alpha.21.tgz":
   version "1.0.0-alpha.21"
-  resolved "https://registry.npmmirror.com/@formily/template/-/template-1.0.0-alpha.21.tgz#46f2c9701ba033f319d700247ff839fe20670dda"
-  integrity sha512-liqTJ0o8i4pNd/X3umm/np+GOdwyT8ED+zbcmcUB8OXQCFjy4jwdSIbZ40uMtRxcxt0e4sybYZzVADF63qMdEw==
+  resolved "file:./formily-template-v1.0.0-alpha.21.tgz#55bd2cfb89800d2570678de41968e9a11650c9e1"
   dependencies:
     "@rollup/plugin-commonjs" "^17.0.0"
     ejs "^3.1.6"
@@ -1545,7 +1544,7 @@
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-postcss "^4.0.0"
     rollup-plugin-terser "^7.0.2"
-    rollup-plugin-typescript2 "^0.30.0"
+    rollup-plugin-typescript2 "^0.31.0"
     ts-node "^9.1.1"
     typescript "^4.1.5"
 
@@ -14416,7 +14415,7 @@ rollup-plugin-terser@^7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup-plugin-typescript2@^0.30.0, rollup-plugin-typescript2@^0.34.1:
+rollup-plugin-typescript2@^0.31.0, rollup-plugin-typescript2@^0.34.1:
   version "0.34.1"
   resolved "https://registry.npmmirror.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.34.1.tgz#c457f155a71d133c142689213fce78694e30d0be"
   integrity sha512-P4cHLtGikESmqi1CA+tdMDUv8WbQV48mzPYt77TSTOPJpERyZ9TXdDgjSDix8Fkqce6soYz3+fa4lrC93IEkcw==

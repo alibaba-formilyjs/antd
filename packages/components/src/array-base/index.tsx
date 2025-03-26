@@ -207,6 +207,7 @@ const Copy = forwardRef<HTMLButtonElement, CommonProps>((props, ref) => {
   if (array.field?.pattern !== 'editable') return null
   return wrapSSR(
     <Button
+      // @ts-ignore
       type="ghost"
       {...props}
       style={{
@@ -254,6 +255,7 @@ const Remove = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
   if (array.field?.pattern !== 'editable') return null
   return wrapSSR(
     <Button
+      // @ts-ignore
       type="ghost"
       {...props}
       style={{
@@ -269,6 +271,7 @@ const Remove = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
         self?.disabled ? `${prefixCls}-remove-disabled` : '',
         props.className
       )}
+      // @ts-ignore
       ref={ref}
       onClick={(e) => {
         if (self?.disabled) return
@@ -296,6 +299,7 @@ const MoveDown = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
   if (array.field?.pattern !== 'editable') return null
   return (
     <Button
+      // @ts-ignore
       type="ghost"
       {...props}
       style={{
@@ -310,6 +314,7 @@ const MoveDown = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
         self?.disabled ? `${prefixCls}-move-down-disabled` : '',
         props.className
       )}
+      // @ts-ignore
       ref={ref}
       onClick={(e) => {
         if (self?.disabled) return
@@ -337,6 +342,7 @@ const MoveUp = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
   if (array.field?.pattern !== 'editable') return null
   return (
     <Button
+      // @ts-ignore
       type="ghost"
       {...props}
       style={{
@@ -351,6 +357,7 @@ const MoveUp = forwardRef<HTMLSpanElement, CommonProps>((props, ref) => {
         self?.disabled ? `${prefixCls}-move-up-disabled` : '',
         props.className
       )}
+      // @ts-ignore
       ref={ref}
       onClick={(e) => {
         if (self?.disabled) return

@@ -31,6 +31,7 @@ const mapTimeFormat = function () {
   }
 }
 
+// @ts-ignore
 const InternalTimePicker: ComposedTimePicker = connect(
   AntdTimePicker,
   mapProps(mapTimeFormat()),

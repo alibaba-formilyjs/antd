@@ -77,6 +77,7 @@ export const genStyleHook = <ComponentName extends OverrideComponent>(
       useStyleRegister(
         {
           nonce: csp?.nonce,
+          // @ts-ignore
           theme,
           token,
           hashId,
